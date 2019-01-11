@@ -1,0 +1,86 @@
+{%- if first_time_accessed -%}
+<script>
+    var dataLayerData = {
+        'page': {
+            'template': 'Checkout > Success',
+            'currentPage': {{ current_page | json }},
+            'currency': {{ shop.currency | json }},
+        },
+        'customer': {},
+        'transaction': {},
+        'cart': {},
+        'product': {},
+        'collection': {}
+    };
+
+    {%- if customer -%}
+        dataLayerData.customer = {
+            'id': {{customer.id | json }},
+            'firstName': {{ customer.first_name | json }},
+            'surname': {{ customer.last_name | json }},
+            'email': {{ customer.email | json }},
+            'ordersCount': {{ customer.orders_count | json }},
+            'totalSpent': {{ customer.total_spent | money_without_currency | json }},
+            'acceptsMarketing': {{ customer.accepts_marketing | json }},
+              'tags': {{ customer.tags | json }}
+        };
+    {%- endif -%}
+
+
+
+    dataLayerData.transaction = {
+        'status': {{ checkout.order.financial_status | json }},
+        'id': {{ checkout.order.order_number | json }},
+        'subtotal': {{checkout.order.subtotal_price | money_without_currency | json}},
+        'total': {{ checkout.order.total_price | money_without_currency | json }},
+        'tax': {{ checkout.order.tax_price | money_without_currency | json }},
+        'shipping': {{ checkout.order.shipping_price | money_without_currency | json }},
+        'shippingMethod': {{ checkout.order.shipping_methods.first.title | json }},
+        'paymentType':  {{ checkout.order.transactions.first.gateway | json }},
+        'date': {{ checkout.order.created_at | date:"%Y-%m-%d" |json }}, 
+        'currency': {{ shop.currency | json }},
+        'discounts': [
+            {%- for discount in checkout.order.discounts  -%}
+                {
+                    'title': {{ discount.title | json }},
+                    'code': {{ discount.code | json }},
+                    'amount': {{ discount.amount | money_without_currency json }}
+                },
+            {%- endfor -%}
+        ],
+        'transactionProducts': [
+            {%- for line_item in checkout.order.line_items -%}
+                {
+                'id': {{ line_item.product_id | json }},
+                'sku': {{ line_item.sku | json}},
+                'name': {{ line_item.title | json }},
+                'price': {{ line_item.line_price | money_without_currency | json }},
+                'quantity': {{ line_item.quantity | json }},
+                'category': {{ line_item.product.type | json }},
+                'brand': {{ line_item.product.vendor | json }},
+                'variant': {{ line_item.variant.title | json }},
+                'variant_id': {{ line_item.variant_id | json}}
+                },
+            {%- endfor -%}
+        ]
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(dataLayerData);
+
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXX');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+{%- endif -%}
