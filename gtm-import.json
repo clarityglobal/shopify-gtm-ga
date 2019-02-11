@@ -1,0 +1,1234 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2019-02-11 22:46:51",
+    "containerVersion": {
+        "path": "accounts/280466/containers/11056102/versions/0",
+        "accountId": "280466",
+        "containerId": "11056102",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/280466/containers/11056102",
+            "accountId": "280466",
+            "containerId": "11056102",
+            "name": "3WhiteHats - Shopify Container",
+            "publicId": "GTM-NDH2WWX",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1549925201126",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/280466/containers/11056102/workspaces?apiLink=container"
+        },
+        "variable": [
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "45",
+                "name": "DL - cart.count",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cart.count"
+                    }
+                ],
+                "fingerprint": "1549925130405",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "46",
+                "name": "DL - cart.products",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cart.products"
+                    }
+                ],
+                "fingerprint": "1549925144480",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "44",
+                "name": "DL - cart.total",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cart.total"
+                    }
+                ],
+                "fingerprint": "1549925116860",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "29",
+                "name": "DL - collection.productCount",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "collection.productCount"
+                    }
+                ],
+                "fingerprint": "1549924493340",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "30",
+                "name": "DL - collection.products",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "collection.products"
+                    }
+                ],
+                "fingerprint": "1549924513231",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "28",
+                "name": "DL - collection.title",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "collection.title"
+                    }
+                ],
+                "fingerprint": "1549924474737",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "10",
+                "name": "DL - customer.acceptsMarketing",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "customer.acceptsMarketing"
+                    }
+                ],
+                "fingerprint": "1549923990868",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "7",
+                "name": "DL - customer.email",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "customer.email"
+                    }
+                ],
+                "fingerprint": "1549923922095",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "5",
+                "name": "DL - customer.firstName",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "customer.firstName"
+                    }
+                ],
+                "fingerprint": "1549923880981",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "4",
+                "name": "DL - customer.id",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "customer.id"
+                    }
+                ],
+                "fingerprint": "1549923858643",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "8",
+                "name": "DL - customer.ordersCount",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "customer.ordersCount"
+                    }
+                ],
+                "fingerprint": "1549923941523",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "6",
+                "name": "DL - customer.surname",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "customer.surname"
+                    }
+                ],
+                "fingerprint": "1549923903429",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "11",
+                "name": "DL - customer.tags",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "customer.tags"
+                    }
+                ],
+                "fingerprint": "1549924027214",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "9",
+                "name": "DL - customer.totalSpent",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "customer.totalSpent"
+                    }
+                ],
+                "fingerprint": "1549923961361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "27",
+                "name": "DL - page.collection",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page.collection"
+                    }
+                ],
+                "fingerprint": "1549924441703",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "3",
+                "name": "DL - page.currency",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page.currency"
+                    }
+                ],
+                "fingerprint": "1549923830596",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "2",
+                "name": "DL - page.currentPage",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page.currentPage"
+                    }
+                ],
+                "fingerprint": "1549923812714",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "26",
+                "name": "DL - page.searchResults",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page.searchResults"
+                    }
+                ],
+                "fingerprint": "1549924398794",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "25",
+                "name": "DL - page.searchTerm",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page.searchTerm"
+                    }
+                ],
+                "fingerprint": "1549924380734",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "1",
+                "name": "DL - page.template",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page.template"
+                    }
+                ],
+                "fingerprint": "1549923790542",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "36",
+                "name": "DL - product.brand",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.brand"
+                    }
+                ],
+                "fingerprint": "1549924634170",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "39",
+                "name": "DL - product.hasNoVariants",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.hasNoVariants"
+                    }
+                ],
+                "fingerprint": "1549924679849",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "31",
+                "name": "DL - product.id",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.id"
+                    }
+                ],
+                "fingerprint": "1549924542101",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "37",
+                "name": "DL - product.inStock",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.inStock"
+                    }
+                ],
+                "fingerprint": "1549924648581",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "40",
+                "name": "DL - product.numVariants",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.numVariants"
+                    }
+                ],
+                "fingerprint": "1549924694926",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "34",
+                "name": "DL - product.price",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.price"
+                    }
+                ],
+                "fingerprint": "1549924592763",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "32",
+                "name": "DL - product.sku",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.sku"
+                    }
+                ],
+                "fingerprint": "1549924558652",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "38",
+                "name": "DL - product.stockQty",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.stockQty"
+                    }
+                ],
+                "fingerprint": "1549924665202",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "35",
+                "name": "DL - product.tags",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.tags"
+                    }
+                ],
+                "fingerprint": "1549924610830",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "33",
+                "name": "DL - product.title",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.title"
+                    }
+                ],
+                "fingerprint": "1549924579760",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "42",
+                "name": "DL - product.variants",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "product.variants"
+                    }
+                ],
+                "fingerprint": "1549924733288",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "41",
+                "name": "DL - product.variantsInStock",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "products.variantsInStock"
+                    }
+                ],
+                "fingerprint": "1549924710222",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "22",
+                "name": "DL - transaction.currency",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.currency"
+                    }
+                ],
+                "fingerprint": "1549924305707",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "21",
+                "name": "DL - transaction.date",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.date"
+                    }
+                ],
+                "fingerprint": "1549924287863",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "23",
+                "name": "DL - transaction.discounts",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.discounts"
+                    }
+                ],
+                "fingerprint": "1549924328841",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "14",
+                "name": "DL - transaction.id",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.id"
+                    }
+                ],
+                "fingerprint": "1549924149061",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "20",
+                "name": "DL - transaction.paymentType",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.paymentType"
+                    }
+                ],
+                "fingerprint": "1549924272756",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "18",
+                "name": "DL - transaction.shipping",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.shipping"
+                    }
+                ],
+                "fingerprint": "1549924234794",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "19",
+                "name": "DL - transaction.shippingMethod",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.shippingMethod"
+                    }
+                ],
+                "fingerprint": "1549924256395",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "13",
+                "name": "DL - transaction.status",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.status"
+                    }
+                ],
+                "fingerprint": "1549924128237",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "15",
+                "name": "DL - transaction.subtotal",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.subtotal"
+                    }
+                ],
+                "fingerprint": "1549924173681",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "17",
+                "name": "DL - transaction.tax",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.tax"
+                    }
+                ],
+                "fingerprint": "1549924217138",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "16",
+                "name": "DL - transaction.total",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.total"
+                    }
+                ],
+                "fingerprint": "1549924198103",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "24",
+                "name": "DL - transaction.transactionProducts",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "transaction.transactionProducts"
+                    }
+                ],
+                "fingerprint": "1549924351241",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "12",
+                "name": "JS - customer.tags - comma separated",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  return {{DL - customer.tags}}.join(\",\") || undefined;\n}"
+                    }
+                ],
+                "fingerprint": "1549924105222",
+                "formatValue": {}
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "variableId": "43",
+                "name": "JS - product.tags - comma separated",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  return {{DL - product.tags}}.join(\",\") || undefined;\n}"
+                    }
+                ],
+                "fingerprint": "1549924782957",
+                "formatValue": {}
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "280466",
+                "containerId": "11056102",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/280466/containers/11056102/versions/0?apiLink=version"
+    }
+}

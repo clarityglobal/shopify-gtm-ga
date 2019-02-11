@@ -18,7 +18,7 @@
   	dataLayerData.collection = {
   		'title': {{ collection.title | json }},
   		'productCount': {{ collection.products_count | json }},
-        	'products': []
+      'products': []
   	};
       {%- for product in collection.products -%}
           {%- assign variantsAvailable = 0 -%}

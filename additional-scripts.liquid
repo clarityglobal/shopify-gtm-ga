@@ -22,7 +22,7 @@
             'ordersCount': {{ customer.orders_count | json }},
             'totalSpent': {{ customer.total_spent | money_without_currency | json }},
             'acceptsMarketing': {{ customer.accepts_marketing | json }},
-              'tags': {{ customer.tags | json }}
+            'tags': {{ customer.tags | json }}
         };
     {%- endif -%}
 
@@ -59,7 +59,7 @@
                 'category': {{ line_item.product.type | json }},
                 'brand': {{ line_item.product.vendor | json }},
                 'variant': {{ line_item.variant.title | json }},
-                'variant_id': {{ line_item.variant_id | json}}
+                'variant_id': {{ line_item.variant_id | json }}
                 },
             {%- endfor -%}
         ]
