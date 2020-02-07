@@ -1,5 +1,5 @@
 var checkoutLabel;
-if(Shopify.Checkout.step) {
+if(Shopify.Checkout && Shopify.Checkout.step) {
     checkoutLabel = Shopify.Checkout.step.split("_").map(function(string){return string.charAt(0).toUpperCase() + string.slice(1);}).join(" ");
 } 
 
